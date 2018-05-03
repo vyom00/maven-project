@@ -205,6 +205,25 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+         
+   <distributionManagement>
+       <downloadUrl>http://10.150.18.149:8081/nexus/#admin/repository/repositories</downloadUrl>
+          <repository>
+           <uniqueVersion>true</uniqueVersion>
+            <id>aem-releases</id>
+            <name>TNC Nexus Releases</name>
+             <url>http://10.150.18.149:8081/nexus/repository/Sape_dev/</url>
+            <layout>default</layout>
+           </repository>
+          <snapshotRepository>
+        <uniqueVersion>true</uniqueVersion>
+       <id>aem-snapshots</id>
+       <name>TNC Nexus Snapshots</name>
+      <url>http://10.150.18.149:8081/nexus/repository/Sape_dev_rel/</url>
+      <layout>default</layout>
+     </snapshotRepository>
+  </distributionManagement>
+
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
