@@ -21,14 +21,6 @@
     <module>webapp</module>
   </modules>
 
-  <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>http://10.150.18.149:8081/nexus/repository/Sape_dev/</url>
-    </site>
-  </distributionManagement>
-
   <build>
     <plugins>
       <plugin>
